@@ -1,7 +1,3 @@
-README.md (short)
-    md
-    Copy
-    Edit
 # Multi-Tenant Invoice Management System (Mini ERP API)
 
 ## Stack
@@ -17,6 +13,12 @@ Node.js, Express, MongoDB, JWT, RBAC, Multer, Nodemailer, Swagger
 - Dashboard summary per org
 - Swagger docs `/docs`
 - (Bonus) Cron reminders & Redis caching
+
+## Folder structure:- https://docs.google.com/document/d/1tBoAAK22gQ8B1afoRNaeFSOb3jQv0XKjLf7OQ0usosI/edit?usp=sharing
+
+## Postman or Swagger documentation:- https://docs.google.com/document/d/1VXwfZE7VJ6MGDf5qz_UhkcOT69zpKt9f7h044r3AQwY/edit?usp=sharing
+
+## Video Demo:- 
 
 ## Setup
 
@@ -47,24 +49,3 @@ Clients: /v1/clients
 Invoices: /v1/invoices (+ /send-email)
 
 Dashboard: /v1/dashboard/summary
-
-Postman collection stub
-
-Create `postman_collection.json` with basic endpoints or export from your tool. (Let me know if you want me to generate it.)
-
----
-
-### Want me to:
-- **Generate a complete Postman collection JSON**?
-- **Add Stripe payment intent flow**?
-- **Wrap it all in Docker (Mongo + API + Redis)**?
-- **Switch to PostgreSQL + Prisma schemas & migrations**?
-
-Tell me what you prefer and I’ll extend this to a production-ready repo. 🚀
-
-
-Folder structure:- https://docs.google.com/document/d/1tBoAAK22gQ8B1afoRNaeFSOb3jQv0XKjLf7OQ0usosI/edit?usp=sharing
-
-Postman or Swagger documentation:- 
-
-Video Demo:- 
