@@ -14,11 +14,14 @@ Node.js, Express, MongoDB, JWT, RBAC, Multer, Nodemailer, Swagger
 - Swagger docs `/docs`
 - (Bonus) Cron reminders & Redis caching
 
-## Folder structure:- https://docs.google.com/document/d/1tBoAAK22gQ8B1afoRNaeFSOb3jQv0XKjLf7OQ0usosI/edit?usp=sharing
+## Folder structure:- 
+- https://docs.google.com/document/d/1tBoAAK22gQ8B1afoRNaeFSOb3jQv0XKjLf7OQ0usosI/edit?usp=sharing
 
-## Postman or Swagger documentation:- https://docs.google.com/document/d/1VXwfZE7VJ6MGDf5qz_UhkcOT69zpKt9f7h044r3AQwY/edit?usp=sharing
+## Postman or Swagger documentation:- 
+- https://docs.google.com/document/d/1VXwfZE7VJ6MGDf5qz_UhkcOT69zpKt9f7h044r3AQwY/edit?usp=sharing
 
-## Video Demo:- 
+## Deployment link:-
+- https://invoice-app-api-4lv6.onrender.com/
 
 ## Setup
 
