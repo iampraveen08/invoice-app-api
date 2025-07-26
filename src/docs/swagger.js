@@ -20,7 +20,7 @@ const swaggerDefinition = {
 
 const options = {
     swaggerDefinition,
-    apis: ['./src/routes/*.js'] // add jsdoc comments in routes if you want full docs
+    apis: ['./src/routes/*.js']
 };
 
 export const setupSwagger = (app) => {
