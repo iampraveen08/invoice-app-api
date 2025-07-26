@@ -17,14 +17,15 @@ Node.js, Express, MongoDB, JWT, RBAC, Multer, Nodemailer, Swagger
 ## Folder structure:- 
 - https://docs.google.com/document/d/1tBoAAK22gQ8B1afoRNaeFSOb3jQv0XKjLf7OQ0usosI/edit?usp=sharing
 
-## Postman or Swagger documentation:- 
-- https://docs.google.com/document/d/1VXwfZE7VJ6MGDf5qz_UhkcOT69zpKt9f7h044r3AQwY/edit?usp=sharing
-
-## Screenshot Doc:- 
-- https://docs.google.com/document/d/1YyEgySbIzwRVuO1bKvgDmeQvq3k5AEIC-qOO-1sGC5E/edit?usp=sharing
+## Swagger documentation:- 
+- http://localhost:5000/docs 
+- https://invoice-app-api-4lv6.onrender.com/docs/
 
 ## Deployment link:-
 - https://invoice-app-api-4lv6.onrender.com/
+
+## Screenshot Doc:- 
+- https://docs.google.com/document/d/1YyEgySbIzwRVuO1bKvgDmeQvq3k5AEIC-qOO-1sGC5E/edit?usp=sharing
 
 ## Setup
 
