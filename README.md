@@ -1,4 +1,4 @@
-17) README.md (short)
+README.md (short)
     md
     Copy
     Edit
@@ -48,13 +48,7 @@ Invoices: /v1/invoices (+ /send-email)
 
 Dashboard: /v1/dashboard/summary
 
-yaml
-Copy
-Edit
-
----
-
-## 18) (Optional) Postman collection stub
+Postman collection stub
 
 Create `postman_collection.json` with basic endpoints or export from your tool. (Let me know if you want me to generate it.)
 
@@ -67,3 +61,10 @@ Create `postman_collection.json` with basic endpoints or export from your tool. 
 - **Switch to PostgreSQL + Prisma schemas & migrations**?
 
 Tell me what you prefer and I’ll extend this to a production-ready repo. 🚀
+
+
+Folder structure:- https://docs.google.com/document/d/1tBoAAK22gQ8B1afoRNaeFSOb3jQv0XKjLf7OQ0usosI/edit?usp=sharing
+
+Postman or Swagger documentation:- 
+
+Video Demo:- 
