@@ -106,6 +106,33 @@ router.post('/login', authCtrl.login);
  */
 router.post('/invite', auth, permit('Admin'), authCtrl.inviteUser);
 
+/**
+ * @swagger
+ * /auth/accept-invite:
+ *   post:
+ *     summary: Accept an invitation and set password
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - token
+ *               - password
+ *             properties:
+ *               token:
+ *                 type: string
+ *               password:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Invitation accepted successfully
+ *       400:
+ *         description: Invalid or expired invitation token
+ */
+router.post('/accept-invite', authCtrl.acceptInvite);
 
 
 
