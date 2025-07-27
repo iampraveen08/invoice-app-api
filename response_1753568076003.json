@@ -1,0 +1,68 @@
+{
+  "org": {
+    "name": "uheriu",
+    "_id": "6885533a458aa47cbeb1a244",
+    "createdAt": "2025-07-26T22:14:18.104Z",
+    "updatedAt": "2025-07-26T22:14:18.104Z",
+    "__v": 0
+  },
+  "user": {
+    "organization": "6885533a458aa47cbeb1a244",
+    "name": "uheruhei",
+    "email": "qw@gmail.com",
+    "password": "$2a$10$qfm/4IoH1vhgWxknI9ZBNuxJP5xd1KdfETsMQgiO43t8qdBMqHzlG",
+    "role": "Admin",
+    "isActive": true,
+    "_id": "6885533a458aa47cbeb1a246",
+    "createdAt": "2025-07-26T22:14:18.188Z",
+    "updatedAt": "2025-07-26T22:14:18.188Z",
+    "__v": 0
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODg1NTMzYTQ1OGFhNDdjYmViMWEyNDYiLCJpYXQiOjE3NTM1NjgwNTgsImV4cCI6MTc1MzY1NDQ1OH0.uU8xLKMnL4rDQZoKG2uwaGX7hBQZjPDafr0Fvyyoxrk"
+},
+
+{
+  "org": {
+    "name": "bug",
+    "_id": "68855b09d52e84270671b274",
+    "createdAt": "2025-07-26T22:47:37.419Z",
+    "updatedAt": "2025-07-26T22:47:37.419Z",
+    "__v": 0
+  },
+  "user": {
+    "organization": "68855b09d52e84270671b274",
+    "name": "bug",
+    "email": "bug@gmail.com",
+    "password": "$2a$10$deROKzxNXa3tgM8yMsIBeuyGnq3qRV8yUZivV23i00IPt2/dq5pJe",
+    "role": "Admin",
+    "isActive": true,
+    "_id": "68855b09d52e84270671b276",
+    "createdAt": "2025-07-26T22:47:37.571Z",
+    "updatedAt": "2025-07-26T22:47:37.571Z",
+    "__v": 0
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODg1NWIwOWQ1MmU4NDI3MDY3MWIyNzYiLCJpYXQiOjE3NTM1NzAwNTcsImV4cCI6MTc1MzY1NjQ1N30.lMKmSAf31z6aUaVjKfwFJ6RzZSJ-e-D0uQW9RbMcil8"
+}
+
+{
+"orgName": "bug",
+"name": "bug",
+"email": "bug@gmail.com",
+"password": "bug@123"
+}
+
+{
+"user": {
+"_id": "68855b09d52e84270671b276",
+"organization": "68855b09d52e84270671b274",
+"name": "bug",
+"email": "bug@gmail.com",
+"password": "$2a$10$deROKzxNXa3tgM8yMsIBeuyGnq3qRV8yUZivV23i00IPt2/dq5pJe",
+"role": "Admin",
+"isActive": true,
+"createdAt": "2025-07-26T22:47:37.571Z",
+"updatedAt": "2025-07-26T22:47:37.571Z",
+"__v": 0
+},
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODg1NWIwOWQ1MmU4NDI3MDY3MWIyNzYiLCJpYXQiOjE3NTM1ODM0NjksImV4cCI6MTc1MzY2OTg2OX0.tc6_LlpbIkKSPIp9J4VbW4fCEOqp59spOSS3Kvs3dF8"
+}

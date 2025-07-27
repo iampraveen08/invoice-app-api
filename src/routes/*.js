@@ -47,7 +47,7 @@ router.post('/register', authCtrl.registerOrganization);
 
 /**
  * @swagger
- * /v1/auth/login:
+ * /auth/login:
  *   post:
  *     summary: User login
  *     tags: [Auth]
@@ -75,7 +75,7 @@ router.post('/login', authCtrl.login);
 
 /**
  * @swagger
- * /v1/auth/invite:
+ * /auth/invite:
  *   post:
  *     summary: Invite a new user (Admin only)
  *     tags: [Auth]
