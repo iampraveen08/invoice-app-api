@@ -33,26 +33,5 @@ Node.js, Express, MongoDB, JWT, RBAC, Multer, Nodemailer, Swagger
 git clone <repo>
 cd invoice-app-api
 cp .env.example .env
-npm i
+npm install
 npm run dev
-Open Swagger: http://localhost:5000/docs
-
-Key Flows
-1) Register Org (Creates Admin)
-POST /v1/auth/register-org
-
-2) Login
-POST /v1/auth/login
-
-3) Invite User (Admin)
-POST /v1/auth/invite (email + role)
-
-4) Accept Invite
-POST /v1/auth/accept-invite
-
-5) CRUD
-Clients: /v1/clients
-
-Invoices: /v1/invoices (+ /send-email)
-
-Dashboard: /v1/dashboard/summary

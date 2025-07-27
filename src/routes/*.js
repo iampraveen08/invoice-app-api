@@ -2,6 +2,9 @@ import express from 'express';
 import authCtrl from '../controllers/auth.controller.js';
 import { auth, permit } from '../middlewares/auth.js';
 import * as clientCtrl from "redis";
+import * as invoiceCtrl from "../services/invoice.service.js";
+import * as userCtrl from "../services/user.service.js";
+import * as paymentCtrl from "../controllers/payment.controller.js";
 
 const router = express.Router();
 
@@ -215,6 +218,16 @@ router.put('/:id', auth, permit('Manager', 'Admin'), clientCtrl.updateClient);
 router.delete('/:id', auth, permit('Admin'), clientCtrl.deleteClient);
 
 
+// // Multer configuration for PDF uploads
+// const storage = multer.diskStorage({
+//     destination: (req, file, cb) => {
+//         cb(null, 'uploads/invoices');
+//     },
+//     filename: (req, file, cb) => {
+//         cb(null, Date.now() + '-' + file.originalname);
+//     },
+// });
+// const upload = multer({ storage });
 /**
  * @swagger
  * tags:
